@@ -1,0 +1,214 @@
+
+TRACE http-wireshark-trace1-1.pcapng linktype 1
+PACKET 93 time 4.875349 10.0.0.44 54968 -> 128.119.245.12 80 len 507 seq 2808303975
+GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 95 time 4.902627 128.119.245.12 80 -> 10.0.0.44 54968 len 486 seq 3766601135
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2021 21:43:30 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Last-Modified: Sat, 30 Jan 2021 06:59:02 GMT
+ETag: "80-5ba18a7e1c636"
+Accept-Ranges: bytes
+Content-Length: 128
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+TRACE http-wireshark-trace2-1.pcapng linktype 1
+PACKET 56 time 0.309961 10.0.0.44 52895 -> 128.119.245.12 80 len 481 seq 2728115995
+GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 58 time 0.33457 128.119.245.12 80 -> 10.0.0.44 52895 len 730 seq 3614963369
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2021 18:19:53 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Last-Modified: Sat, 30 Jan 2021 06:59:02 GMT
+ETag: "173-5ba18a7e1ba7e"
+Accept-Ranges: bytes
+Content-Length: 371
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+PACKET 555 time 3.481656 10.0.0.44 52895 -> 128.119.245.12 80 len 593 seq 2728116476
+GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-None-Match: "173-5ba18a7e1ba7e"
+If-Modified-Since: Sat, 30 Jan 2021 06:59:02 GMT
+PACKET 556 time 3.504286 128.119.245.12 80 -> 10.0.0.44 52895 len 239 seq 3614964099
+HTTP/1.1 304 Not Modified
+Date: Sat, 30 Jan 2021 18:19:56 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=99
+ETag: "173-5ba18a7e1ba7e"
+
+TRACE http-wireshark-trace3-1.pcapng linktype 1
+PACKET 26 time 3.81323 10.0.0.44 54985 -> 128.119.245.12 80 len 481 seq 1195279673
+GET /wireshark-labs/HTTP-wireshark-file3.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 28 time 3.841957 128.119.245.12 80 -> 10.0.0.44 54985 len 1448 seq 1403871982
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2021 21:45:42 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Last-Modified: Sat, 30 Jan 2021 06:59:02 GMT
+ETag: "1194-5ba18a7e16875"
+Accept-Ranges: bytes
+Content-Length: 4500
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+PACKET 29 time 3.841961 128.119.245.12 80 -> 10.0.0.44 54985 len 1448 seq 1403873430
+[Continuation] 'p><a name="1"><strong><h3>Amendment I</h3></s'
+PACKET 31 time 3.842198 128.119.245.12 80 -> 10.0.0.44 54985 len 1448 seq 1403874878
+[Continuation] 'l forces,\nor in the militia, when in actual s'
+PACKET 32 time 3.842202 128.119.245.12 80 -> 10.0.0.44 54985 len 517 seq 1403876326
+[Continuation] 'imposed, nor cruel and unusual punishments in'
+
+TRACE http-wireshark-trace4-1.pcapng linktype 1
+PACKET 95 time 3.018199 10.0.0.44 55023 -> 128.119.245.12 80 len 481 seq 50370200
+GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 97 time 3.048563 128.119.245.12 80 -> 10.0.0.44 55023 len 1301 seq 535302191
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2021 21:53:03 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Last-Modified: Sat, 30 Jan 2021 06:59:02 GMT
+ETag: "3ae-5ba18a7e1aec6"
+Accept-Ranges: bytes
+Content-Length: 942
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+PACKET 99 time 3.072335 10.0.0.44 55023 -> 128.119.245.12 80 len 427 seq 50370681
+GET /pearson.png HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 102 time 3.092425 128.119.245.12 80 -> 10.0.0.44 55023 len 1448 seq 535303492
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2021 21:53:03 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Last-Modified: Sat, 06 Aug 2016 10:08:14 GMT
+ETag: "cc3-539645c7f1ee7"
+Accept-Ranges: bytes
+Content-Length: 3267
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+PACKET 103 time 3.092766 128.119.245.12 80 -> 10.0.0.44 55023 len 1448 seq 535304940
+[Continuation] 'hßö(IµÏo*±ÙeV}1\x93^é9K}\x14Î__S¦sµÿh×ù-?\x05»\x0cõ©\x93yï\x19\x97'
+PACKET 104 time 3.09277 128.119.245.12 80 -> 10.0.0.44 55023 len 715 seq 535306388
+[Continuation] 'QÕ}^õIm<aß9\x0cOõ\x96çùÂèzpÈ÷°Ì×\x89~ÿ\x1a_7¦¾ÿ\x8bÔ·Q«;í{\x8d±'
+PACKET 118 time 3.309908 10.0.0.44 55024 -> 178.79.137.164 80 len 434 seq 2663893159
+GET /8E_cover_small.jpg HTTP/1.1
+Host: kurose.cslash.net
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 120 time 3.451822 178.79.137.164 80 -> 10.0.0.44 55024 len 171 seq 1786763054
+HTTP/1.1 301 Moved Permanently
+Location: https://kurose.cslash.net/8E_cover_small.jpg
+Content-Length: 0
+Date: Sat, 30 Jan 2021 21:53:04 GMT
+Server: lighttpd/1.4.47
+PACKET 144 time 3.757683 10.0.0.44 55027 -> 104.98.115.146 80 len 295 seq 3037010313
+GET /MFgwVqADAgEAME8wTTBLMAkGBSsOAwIaBQAEFEjayaD7K9MtT%2FDeaNL1Z7c1%2BbPEBBQULrMXt1hWy65QCUDmH6%2BdixTCxgISBH7WwlyAN%2Bt3uKOWua1TRtPM HTTP/1.1
+Host: r3.o.lencr.org
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: com.apple.trustd/2.0
+PACKET 155 time 3.844477 104.98.115.146 80 -> 10.0.0.44 55027 len 889 seq 522017180
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/ocsp-response
+Content-Length: 503
+ETag: "D011E95DEF1AF7C70469572A50F23F21957099A7C603714D17A5C3BD77FE91C6"
+Last-Modified: Sat, 30 Jan 2021 14:00:00 UTC
+Cache-Control: public, no-transform, must-revalidate, max-age=43169
+Expires: Sun, 31 Jan 2021 09:52:33 GMT
+Date: Sat, 30 Jan 2021 21:53:04 GMT
+Connection: keep-alive
+
+TRACE http-wireshark-trace5-1.pcapng linktype 1
+PACKET 92 time 4.954391 10.0.0.44 55096 -> 128.119.245.12 80 len 497 seq 1836440539
+GET /wireshark-labs/protected_pages/HTTP-wireshark-file5.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 94 time 4.982934 128.119.245.12 80 -> 10.0.0.44 55096 len 717 seq 2799523191
+HTTP/1.1 401 Unauthorized
+Date: Sat, 30 Jan 2021 22:04:57 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+WWW-Authenticate: Basic realm="wireshark-students only"
+Content-Length: 381
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+PACKET 478 time 19.298522 10.0.0.44 55095 -> 128.119.245.12 80 len 582 seq 1391350136
+GET /wireshark-labs/protected_pages/HTTP-wireshark-file5.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Cache-Control: max-age=0
+Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+PACKET 482 time 19.32062 128.119.245.12 80 -> 10.0.0.44 55095 len 490 seq 2453166260
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2021 22:05:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.14 mod_perl/2.0.11 Perl/v5.16.3
+Last-Modified: Sat, 30 Jan 2021 06:59:02 GMT
+ETag: "84-5ba18a7e1d5d6"
+Accept-Ranges: bytes
+Content-Length: 132
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8

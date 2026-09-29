@@ -1,0 +1,22 @@
+Author: Ziyi Liu (zl6722)
+Lab 3 local validation, September 26, 2026
+Environment: Python 3.12, Linux; actual HTTP and UDP sockets.
+
+test_01_registration_and_exact_dns_response (__main__.Integration.test_01_registration_and_exact_dns_response) ... ok
+test_02_direct_and_end_to_end_fibonacci (__main__.Integration.test_02_direct_and_end_to_end_fibonacci) ... ok
+test_03_us_all_missing_parameters (__main__.Integration.test_03_us_all_missing_parameters) ... ok
+test_04_invalid_numbers_and_ports (__main__.Integration.test_04_invalid_numbers_and_ports) ... ok
+test_05_invalid_registration_and_dns (__main__.Integration.test_05_invalid_registration_and_dns) ... ok
+test_06_unknown_hostname (__main__.Integration.test_06_unknown_hostname) ... ok
+test_07_persistence_after_as_restart (__main__.Integration.test_07_persistence_after_as_restart) ... ok
+test_08_dns_timeout (__main__.Integration.test_08_dns_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.247s
+
+OK
+
+Static YAML checks: PASS (7 Kubernetes resources; correct selectors, ports, protocols, and Compose services).
+Docker build/run: NOT RUN (Docker unavailable).
+Cloud Kubernetes: NOT RUN (kubectl and cloud access unavailable).
+GitHub push: NOT PERFORMED.

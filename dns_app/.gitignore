@@ -1,0 +1,6 @@
+# Author: Ziyi Liu (zl6722)
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite3-*
+.venv/

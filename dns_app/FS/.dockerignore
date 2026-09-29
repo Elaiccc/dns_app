@@ -1,0 +1,4 @@
+# Author: Ziyi Liu (zl6722)
+__pycache__/
+*.pyc
+*.sqlite*

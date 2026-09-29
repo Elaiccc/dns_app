@@ -1,0 +1,16 @@
+# Author: Ziyi Liu (zl6722)
+services:
+  as:
+    build: ./AS
+    ports: ["53533:53533/udp"]
+    volumes: ["dns-records:/data"]
+  fs:
+    build: ./FS
+    ports: ["9090:9090"]
+    depends_on: [as]
+  us:
+    build: ./US
+    ports: ["8080:8080"]
+    depends_on: [as, fs]
+volumes:
+  dns-records:
